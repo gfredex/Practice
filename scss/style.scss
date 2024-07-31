@@ -12,3 +12,44 @@ $bg-card: #1B214F;
     margin: 0;
     border: none;
 }
+
+.mainWrap {
+    display: flex;
+    flex-direction: row;
+    height: 100dvh;
+
+    .mainItem {
+        flex: 0 1 auto;
+    }
+
+    .navigation {
+        flex: 0 0 72px;
+        background-color: $bg-sidebar;
+        padding-top: 70px;
+        display: flex;
+        justify-content: center;
+
+        .menu {
+            list-style-type: none;
+            display: flex;
+            flex-direction: column;
+            gap: 28px;
+
+            a {
+                text-decoration: none;
+
+                .icon {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    .mainContent {}
+
+    .sideBar {
+        flex: 0 0 370px;
+        background-color: $bg-sidebar;
+        padding: 40px 27px;
+    }
+}
