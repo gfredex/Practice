@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Practice';
-  src:  url('../fonts/Practice.eot?38a93p');
-  src:  url('../fonts/Practice.eot?38a93p#iefix') format('embedded-opentype'),
+  src: url('../fonts/Practice.eot?38a93p');
+  src: url('../fonts/Practice.eot?38a93p#iefix') format('embedded-opentype'),
     url('../fonts/Practice.ttf?38a93p') format('truetype'),
     url('../fonts/Practice.woff?38a93p') format('woff'),
     url('../fonts/Practice.svg?38a93p#Practice') format('svg');
@@ -13,7 +13,7 @@
 .icon {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'Practice' !important;
-  speak: never;
+  /* speak: never; */
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -29,34 +29,42 @@
   content: "\e900";
   color: #fff;
 }
+
 .icon-arrow-right:before {
   content: "\e901";
   color: #7d80a5;
 }
+
 .icon-chart:before {
   content: "\e902";
   color: #898caf;
 }
+
 .icon-clock:before {
   content: "\e903";
   color: #898caf;
 }
+
 .icon-dots:before {
   content: "\e904";
   color: #fff;
 }
+
 .icon-mail:before {
   content: "\e905";
   color: #898caf;
 }
+
 .icon-people:before {
   content: "\e906";
   color: #898caf;
 }
+
 .icon-tick:before {
   content: "\e907";
   color: #fff;
 }
+
 .icon-wallet:before {
   content: "\e908";
   color: #898caf;
