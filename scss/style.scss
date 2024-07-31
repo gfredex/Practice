@@ -1,6 +1,25 @@
+$color-text: #FFFFFF;
+$color-subtext: #787878;
+$bg-main: #0D0F23;
+$bg-sidebar: #111536;
+$bg-button1: #FA1F60;
+$bg-button2: #28007A;
+$bg-card: #1B214F;
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.poppins {
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+}
+
+.dsans {
+    font-size: 18px;
+    font-family: "DM Sans", sans-serif;
 }
