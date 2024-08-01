@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Practice';
-  src: url('../fonts/Practice.eot?38a93p');
-  src: url('../fonts/Practice.eot?38a93p#iefix') format('embedded-opentype'),
-    url('../fonts/Practice.ttf?38a93p') format('truetype'),
-    url('../fonts/Practice.woff?38a93p') format('woff'),
-    url('../fonts/Practice.svg?38a93p#Practice') format('svg');
+  src: url('../fonts/Practice.eot');
+  src: url('../fonts/Practice.eot') format('embedded-opentype'),
+    url('../fonts/Practice.ttf') format('truetype'),
+    url('../fonts/Practice.woff') format('woff'),
+    url('../fonts/Practice.svg') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
