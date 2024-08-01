@@ -11,6 +11,7 @@ $bg-card: #1B214F;
     padding: 0;
     margin: 0;
     border: none;
+    color: $color-text;
 }
 
 .mainWrap {
@@ -45,7 +46,128 @@ $bg-card: #1B214F;
         }
     }
 
-    .mainContent {}
+    .mainContent {
+        font-family: "Poppins", sans-serif;
+        background-color: $bg-main;
+        flex: 1 2 100%;
+        padding: 80px 56px 0 56px;
+        min-width: 450px;
+
+        .contentWrap {
+            display: flex;
+            flex-direction: column;
+
+            .contentInfo {
+                display: flex;
+                justify-content: space-between;
+                background: linear-gradient(162.34deg, #161A42 22.61%, rgba(22, 26, 66, 0) 118.29%);
+                border: 2px solid $bg-button2;
+                border-radius: 16px 0 0 16px;
+                border-right: none;
+
+                .infoText {
+                    flex: 1 2 100%;
+                    padding: 32px;
+
+                    h3 {
+                        font-size: 24px;
+                        font-weight: 600;
+                        line-height: 36px;
+                    }
+
+                    p {
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 24px;
+                        color: $color-subtext;
+                        margin: 8px 0 20px;
+                    }
+
+                    .btns {
+                        width: 260px;
+                        display: flex;
+                        justify-content: space-between;
+
+                        .btn {
+                            width: 120px;
+                            height: 48px;
+                            border-radius: 24px;
+                            font-size: 16px;
+                            cursor: pointer;
+                            outline: none;
+                        }
+
+                        .activBtn {
+                            background-color: $bg-button1;
+                            border: 2px solid $bg-button1;
+                            box-shadow: 6px 10px 16px 0px #5C5BF633;
+
+                        }
+
+                        .basicBtn {
+                            background-color: rgba($color: #fff, $alpha: 0);
+                            border: 2px solid $color-text;
+                        }
+                    }
+                }
+            }
+
+            .contentFriends {
+                margin-top: 30px;
+
+                .userList {
+                    display: flex;
+                    gap: 40px;
+                    overflow-x: scroll;
+
+                    .user {
+                        display: flex;
+                        gap: 12px;
+                        align-items: center;
+                        width: 200px;
+                        min-width: 200px;
+                        padding: 20px 0;
+
+                        .img {
+                            width: 60px;
+                            height: 60px;
+                            border-radius: 50%;
+                            overflow: hidden;
+                        }
+
+                        h4 {
+                            font-size: 16px;
+                            font-weight: 700;
+                            line-height: 24px;
+                        }
+
+                        span {
+                            font-size: 12px;
+                            font-weight: 500;
+                            line-height: 24px;
+                            color: $color-subtext;
+                        }
+                    }
+                }
+
+                // .userList::-webkit-scrollbar {}
+
+                .userList::-webkit-scrollbar {
+                    height: 4px;
+                }
+
+                .userList::-webkit-scrollbar-track {
+                    background: #A19D9F3B;
+                    border-radius: 20px;
+                }
+
+                .userList::-webkit-scrollbar-thumb {
+                    background-color: $bg-button1;
+                    border-radius: 20px;
+                }
+            }
+        }
+    }
 
     .sideBar {
         flex: 0 0 370px;
