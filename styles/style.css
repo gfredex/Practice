@@ -134,6 +134,78 @@
   background-color: #FA1F60;
   border-radius: 20px;
 }
+.mainWrap .mainContent .contentWrap .contentProjects {
+  margin-top: 35px;
+}
+.mainWrap .mainContent .contentWrap .contentProjects .headProject {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.mainWrap .mainContent .contentWrap .contentProjects .headProject h4 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+}
+.mainWrap .mainContent .contentWrap .contentProjects .headProject .btns {
+  display: flex;
+  gap: 10px;
+}
+.mainWrap .mainContent .contentWrap .contentProjects .headProject .btns a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #A2A6D0;
+}
+.mainWrap .mainContent .contentWrap .contentProjects .cardsProjects {
+  display: flex;
+  justify-content: center;
+  gap: 36px;
+  flex-wrap: wrap;
+}
+.mainWrap .mainContent .contentWrap .contentProjects .cardsProjects .card {
+  padding: 12px;
+  background-color: #1B214F;
+  border-radius: 16px;
+}
+.mainWrap .mainContent .contentWrap .contentProjects .cardsProjects .card div {
+  position: relative;
+}
+.mainWrap .mainContent .contentWrap .contentProjects .cardsProjects .card div .project {
+  border-radius: 8px;
+}
+.mainWrap .mainContent .contentWrap .contentProjects .cardsProjects .card div .autor {
+  position: absolute;
+  z-index: 2;
+  border-radius: 50%;
+  right: 10px;
+  bottom: -15px;
+}
+.mainWrap .mainContent .contentWrap .contentProjects .cardsProjects .card .nameProject {
+  padding: 14px 4px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.mainWrap .mainContent .contentWrap .contentProjects .cardsProjects .card .viev {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+}
+.mainWrap .mainContent .contentWrap .contentProjects .cardsProjects .card button {
+  background-color: rgba(255, 255, 255, 0);
+  border: 2px solid #FFFFFF;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 6px 40px;
+  border-radius: 40px;
+  box-shadow: 0px 13px 17px 0px rgba(140, 213, 105, 0.2);
+  cursor: pointer;
+}
 .mainWrap .sideBar {
   flex: 0 0 370px;
   background-color: #111536;
