@@ -138,4 +138,116 @@
   flex: 0 0 370px;
   background-color: #111536;
   padding: 40px 27px;
+  font-family: "DM Sans", sans-serif;
+}
+.mainWrap .sideBar .sidebarHeader {
+  display: flex;
+  align-items: center;
+  padding-bottom: 25px;
+  border-bottom: 1px solid rgba(198, 199, 202, 0.2);
+  gap: 12px;
+}
+.mainWrap .sideBar .sidebarHeader .img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.mainWrap .sideBar .details .detailsHeader {
+  padding: 45px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.mainWrap .sideBar .details .detailsHeader .title {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23.44px;
+  letter-spacing: -0.04em;
+}
+.mainWrap .sideBar .details .detailsHeader .icon-arrow-left,
+.mainWrap .sideBar .details .detailsHeader .icon-dots {
+  cursor: pointer;
+}
+.mainWrap .sideBar .details .detailsImg {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin-bottom: 65px;
+}
+.mainWrap .sideBar .details .detailsWrap {
+  display: flex;
+  flex-direction: column;
+}
+.mainWrap .sideBar .details .detailsWrap h4 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.83px;
+  letter-spacing: -0.04em;
+}
+.mainWrap .sideBar .details .detailsWrap span {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15.62px;
+  letter-spacing: -0.04em;
+  color: #787878;
+  padding: 10px 0 25px;
+}
+.mainWrap .sideBar .details .detailsWrap .course {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mainWrap .sideBar .details .detailsWrap .course .coursInfo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.mainWrap .sideBar .details .detailsWrap .course .coursInfo img {
+  border-radius: 50%;
+}
+.mainWrap .sideBar .details .detailsWrap .course .coursInfo p {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18.23px;
+  letter-spacing: -0.04em;
+}
+.mainWrap .sideBar .details .detailsWrap .course button {
+  border: 2px solid #FFFFFF;
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.83px;
+  letter-spacing: -0.04em;
+  padding: 10px 30px;
+  cursor: pointer;
+  border-radius: 30px;
+}
+.mainWrap .sideBar .details .detailsWrap .descriptionWrap {
+  margin-top: 35px;
+}
+.mainWrap .sideBar .details .detailsWrap .descriptionWrap h4 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26.04px;
+  letter-spacing: -0.04em;
+}
+.mainWrap .sideBar .details .detailsWrap .descriptionWrap p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+  color: #787878;
+  padding: 12px 0 40px;
+}
+.mainWrap .sideBar .details .detailsWrap .contact {
+  margin: 0 auto;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 15px 90px;
+  border-radius: 40px;
+  background-color: #FA1F60;
+  border: 2px solid #FA1F60;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
 }

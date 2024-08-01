@@ -173,5 +173,140 @@ $bg-card: #1B214F;
         flex: 0 0 370px;
         background-color: $bg-sidebar;
         padding: 40px 27px;
+        font-family: "DM Sans", sans-serif;
+
+        .sidebarHeader {
+            display: flex;
+            align-items: center;
+            padding-bottom: 25px;
+            border-bottom: 1px solid #C6C7CA33;
+            gap: 12px;
+
+            .img {
+                width: 30px;
+                height: 30px;
+                border-radius: 50px;
+                overflow: hidden;
+            }
+        }
+
+        .details {
+            .detailsHeader {
+                padding: 45px 0;
+                display: flex;
+                justify-content: space-between;
+
+                .title {
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 23.44px;
+                    letter-spacing: -0.04em;
+                }
+
+                .icon-arrow-left,
+                .icon-dots {
+                    cursor: pointer;
+                }
+
+            }
+
+            .detailsImg {
+                position: relative;
+                left: 50%;
+                transform: translate(-50%, 0);
+                margin-bottom: 65px;
+            }
+
+            .detailsWrap {
+                display: flex;
+                flex-direction: column;
+
+                h4 {
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 20.83px;
+                    letter-spacing: -0.04em;
+                }
+
+                span {
+                    font-size: 12px;
+                    font-weight: 500;
+                    line-height: 15.62px;
+                    letter-spacing: -0.04em;
+                    color: $color-subtext;
+                    padding: 10px 0 25px;
+                }
+
+                .course {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .coursInfo {
+                        display: flex;
+                        align-items: center;
+                        gap: 12px;
+
+                        img {
+                            border-radius: 50%;
+                        }
+
+                        p {
+                            font-size: 14px;
+                            font-weight: 700;
+                            line-height: 18.23px;
+                            letter-spacing: -0.04em;
+                        }
+                    }
+
+                    button {
+                        border: 2px solid $color-text;
+                        background-color: rgba($color: #FFFFFF, $alpha: 0.0);
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: 20.83px;
+                        letter-spacing: -0.04em;
+                        padding: 10px 30px;
+                        cursor: pointer;
+                        border-radius: 30px;
+                    }
+
+                }
+
+                .descriptionWrap {
+                    margin-top: 35px;
+
+                    h4 {
+                        font-size: 20px;
+                        font-weight: 500;
+                        line-height: 26.04px;
+                        letter-spacing: -0.04em;
+                    }
+
+                    p {
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 24px;
+                        letter-spacing: -0.03em;
+                        color: $color-subtext;
+                        padding: 12px 0 40px;
+                    }
+                }
+
+                .contact {
+                    margin: 0 auto;
+                    width: fit-content;
+                    padding: 15px 90px;
+                    border-radius: 40px;
+                    background-color: $bg-button1;
+                    border: 2px solid $bg-button1;
+                    font-size: 16px;
+                    font-weight: 500;
+                    cursor: pointer;
+                }
+            }
+
+        }
+
     }
 }
